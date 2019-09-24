@@ -3,12 +3,13 @@ package Entities;
 public class Pessoa {
     private String nome;
     private String cpf;
-    private String idade;
+    private double totalRendimentos;
+    private double contribuicaoPrevidenciaria;
 
-    public Pessoa(String nome, String cpf, String idade) {
+    public Pessoa(String nome, String cpf, double totalRendimentos) {
         this.nome = nome;
         this.cpf = cpf;
-        this.idade = idade;
+        this.totalRendimentos = totalRendimentos;
     }
 
     public String getNome() {
@@ -27,11 +28,19 @@ public class Pessoa {
         this.cpf = cpf;
     }
 
-    public String getIdade() {
-        return idade;
+    public double getTotalRendimentos() {
+        return totalRendimentos;
     }
 
-    public void setIdade(String idade) {
-        this.idade = idade;
+    public void setTotalRendimentos(double totalRendimentos) {
+        this.totalRendimentos = totalRendimentos;
+    }
+
+    public double getContribuicaoPrevidenciaria() {
+        return contribuicaoPrevidenciaria;
+    }
+
+    public void setContribuicaoPrevidenciaria(double contribuicaoPrevidenciaria) {
+        this.contribuicaoPrevidenciaria = contribuicaoPrevidenciaria;
     }
 }

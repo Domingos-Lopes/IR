@@ -1,12 +1,15 @@
 package Entities;
 
-public class ContribuinteCompleto extends Pessoa {
-    private int numeroDependentes;
-    private int totalDeRendimentos;
+import Interfaces.DeclaracaoCompleta;
 
-    public ContribuinteCompleto (String nome, String cpf, String idade, int numeroDependentes) {
-        super(nome, cpf, idade);
+public class ContribuinteCompleto extends Pessoa{
+    private int numeroDependentes;
+    private int idade;
+
+   public ContribuinteCompleto (String nome, String cpf, int idade, double totalRendimentos, int numeroDependentes) {
+        super(nome, cpf, totalRendimentos);
         this.numeroDependentes = numeroDependentes;
+        this.idade = idade;
     }
 
     public int getNumeroDependentes() {
@@ -16,4 +19,13 @@ public class ContribuinteCompleto extends Pessoa {
     public void setNumeroDependentes(int numeroDependentes) {
         this.numeroDependentes = numeroDependentes;
     }
+
+    public int getIdade() {
+        return idade;
+    }
+
+    public void setIdade(int idade) {
+        this.idade = idade;
+    }
+
 }
