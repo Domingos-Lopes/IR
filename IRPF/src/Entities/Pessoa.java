@@ -40,7 +40,4 @@ public class Pessoa {
         return contribuicaoPrevidenciaria;
     }
 
-    public void setContribuicaoPrevidenciaria(double contribuicaoPrevidenciaria) {
-        this.contribuicaoPrevidenciaria = contribuicaoPrevidenciaria;
-    }
 }

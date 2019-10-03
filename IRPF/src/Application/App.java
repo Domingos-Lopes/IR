@@ -30,7 +30,7 @@ public class App {
 
 
         //TEST Contribuinte Completo base inferior a 12000
-        ContribuinteCompleto cp1 = new ContribuinteCompleto("Thaina", "000011", 22, 7000, 4);
+        ContribuinteCompleto cp1 = new ContribuinteCompleto("Thaina", "000011", 20, 15000, 5);
         ServiceCompleto sc_cp1 = new ServiceCompleto(cp1);
         sc_cp1.desconto();
         sc_cp1.imposto();
