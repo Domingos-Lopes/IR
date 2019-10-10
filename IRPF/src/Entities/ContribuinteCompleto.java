@@ -6,8 +6,12 @@ public class ContribuinteCompleto extends Pessoa{
     private int numeroDependentes;
     private int idade;
 
-   public ContribuinteCompleto (String nome, String cpf, int idade, double totalRendimentos, int numeroDependentes) {
-        super(nome, cpf, totalRendimentos);
+    public ContribuinteCompleto(){
+
+    }
+
+   public ContribuinteCompleto (String nome, String cpf, int idade, double totalRendimentos, double contribuicaoPrevidenciaria, int numeroDependentes) {
+        super(nome, cpf, totalRendimentos, contribuicaoPrevidenciaria);
         this.numeroDependentes = numeroDependentes;
         this.idade = idade;
     }
@@ -28,4 +32,10 @@ public class ContribuinteCompleto extends Pessoa{
         this.idade = idade;
     }
 
+    @Override
+    public String toString() {
+        return  super.toString() +
+                "Numero de Dependentes: " + numeroDependentes + "\n" +
+                "Idade: " + idade + "\n";
+    }
 }
