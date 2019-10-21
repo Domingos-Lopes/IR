@@ -22,7 +22,7 @@ public class ServiceSimplificado implements DeclaracaoSimplificada {
         }else if(base >= 12000 && base <= 24000){
             imposto = (base - 12000) * 0.15;
         }else if(base >= 24000){
-            imposto = (base - 24000) * 0.275 ;
+            imposto = (base - 24000) * 0.275 + 12000 * 0.15 ;
         }
     }
 

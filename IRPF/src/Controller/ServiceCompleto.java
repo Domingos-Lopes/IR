@@ -52,6 +52,10 @@ public class ServiceCompleto implements DeclaracaoCompleta{
     public double getImposto() {
         return imposto;
     }
+    
+    public double getDesconto() {
+    	return desconto;
+    }
 
     @Override
     public String toString() {
