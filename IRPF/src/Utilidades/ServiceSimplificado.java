@@ -1,4 +1,4 @@
-package Services;
+package Utilidades;
 
 import Entities.Pessoa;
 import Interfaces.DeclaracaoSimplificada;
@@ -6,6 +6,8 @@ import Interfaces.DeclaracaoSimplificada;
 public class ServiceSimplificado implements DeclaracaoSimplificada {
     private Pessoa pessoa;
     private double imposto;
+    private double baseCalculo;
+    private double base;
 
     public ServiceSimplificado(Pessoa pessoa) {
         this.pessoa = pessoa;
@@ -13,10 +15,8 @@ public class ServiceSimplificado implements DeclaracaoSimplificada {
 
     @Override
     public void imposto() {
-        double baseCalculo = pessoa.getTotalRendimentos() - pessoa.getContribuicaoPrevidenciaria();
-
-        double base = baseCalculo - (baseCalculo * 0.05);
-
+        baseCalculo = pessoa.getTotalRendimentos() - pessoa.getContribuicaoPrevidenciaria();
+        base = baseCalculo - (baseCalculo * 0.05);
         if(base <= 12000){
             imposto = 0;
         }else if(base >= 12000 && base <= 24000){
@@ -30,4 +30,8 @@ public class ServiceSimplificado implements DeclaracaoSimplificada {
         return imposto;
     }
 
+    @Override
+    public String toString() {
+        return "Imposto à pagar: R$ " + imposto + "\n";
+    }
 }
