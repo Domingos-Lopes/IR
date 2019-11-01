@@ -1,8 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="529a6ee2-be46-40e2-8451-2a18bea8f101" name="Default Changelist" comment="" />
-    <ignored path="$PROJECT_DIR$/out/" />
+    <list default="true" id="529a6ee2-be46-40e2-8451-2a18bea8f101" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controller/ConnectionDB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DAO/CadastroDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DAO/CadastroDAOJavaDB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Model/Contribuinte.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/View/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/derbyDB/db.lck" beforeDir="false" afterPath="$PROJECT_DIR$/derbyDB/db.lck" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/derbyDB/log/log.ctrl" beforeDir="false" afterPath="$PROJECT_DIR$/derbyDB/log/log.ctrl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/derbyDB/log/log1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/derbyDB/log/log1.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/derbyDB/log/logmirror.ctrl" beforeDir="false" afterPath="$PROJECT_DIR$/derbyDB/log/logmirror.ctrl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/derbyDB/seg0/c101.dat" beforeDir="false" afterPath="$PROJECT_DIR$/derbyDB/seg0/c101.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/derbyDB/seg0/c111.dat" beforeDir="false" afterPath="$PROJECT_DIR$/derbyDB/seg0/c111.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/derbyDB/seg0/c121.dat" beforeDir="false" afterPath="$PROJECT_DIR$/derbyDB/seg0/c121.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/derbyDB/seg0/c130.dat" beforeDir="false" afterPath="$PROJECT_DIR$/derbyDB/seg0/c130.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/derbyDB/seg0/c141.dat" beforeDir="false" afterPath="$PROJECT_DIR$/derbyDB/seg0/c141.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/derbyDB/seg0/c20.dat" beforeDir="false" afterPath="$PROJECT_DIR$/derbyDB/seg0/c20.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/derbyDB/seg0/c31.dat" beforeDir="false" afterPath="$PROJECT_DIR$/derbyDB/seg0/c31.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/derbyDB/seg0/c41.dat" beforeDir="false" afterPath="$PROJECT_DIR$/derbyDB/seg0/c41.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/derbyDB/seg0/c470.dat" beforeDir="false" afterPath="$PROJECT_DIR$/derbyDB/seg0/c470.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/derbyDB/seg0/c481.dat" beforeDir="false" afterPath="$PROJECT_DIR$/derbyDB/seg0/c481.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/derbyDB/seg0/c51.dat" beforeDir="false" afterPath="$PROJECT_DIR$/derbyDB/seg0/c51.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/derbyDB/seg0/c60.dat" beforeDir="false" afterPath="$PROJECT_DIR$/derbyDB/seg0/c60.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/derbyDB/seg0/c71.dat" beforeDir="false" afterPath="$PROJECT_DIR$/derbyDB/seg0/c71.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/derbyDB/seg0/c81.dat" beforeDir="false" afterPath="$PROJECT_DIR$/derbyDB/seg0/c81.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/derbyDB/seg0/c90.dat" beforeDir="false" afterPath="$PROJECT_DIR$/derbyDB/seg0/c90.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/derbyDB/seg0/ca1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/derbyDB/seg0/ca1.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/derbyDB/seg0/cb1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/derbyDB/seg0/cb1.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/derbyDB/seg0/cf0.dat" beforeDir="false" afterPath="$PROJECT_DIR$/derbyDB/seg0/cf0.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Apresentacao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/View/Apresentacao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CalculoIRPF.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/CalculoIRPF.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Constantes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Constantes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Contribuinte.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DeclaracaoCompleta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/DeclaracaoCompleta.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DeclaracaoSimplificada.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/DeclaracaoSimplificada.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,144 +48,26 @@
   <component name="FavoritesManager">
     <favorites_list name="IRPFmvc" />
   </component>
-  <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Contribuinte.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
-              <folding>
-                <element signature="e#280#281#0" expanded="true" />
-                <element signature="e#352#353#0" expanded="true" />
-                <element signature="e#408#409#0" expanded="true" />
-                <element signature="e#476#477#0" expanded="true" />
-                <element signature="e#533#534#0" expanded="true" />
-                <element signature="e#606#607#0" expanded="true" />
-                <element signature="e#688#689#0" expanded="true" />
-                <element signature="e#808#809#0" expanded="true" />
-                <element signature="e#910#911#0" expanded="true" />
-                <element signature="e#1151#1152#0" expanded="true" />
-                <element signature="e#1272#1273#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/DeclaracaoCompleta.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="9" selection-end-column="5" />
-              <folding>
-                <element signature="e#247#248#0" expanded="true" />
-                <element signature="e#273#274#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Constantes.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" selection-start-line="14" selection-end-line="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Apresentacao.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="799">
-              <caret line="62" column="29" lean-forward="true" selection-start-line="62" selection-start-column="29" selection-end-line="62" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/DeclaracaoSimplificada.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-              <folding>
-                <element signature="e#250#251#0" expanded="true" />
-                <element signature="e#276#277#0" expanded="true" />
-                <element signature="e#704#705#0" expanded="true" />
-                <element signature="e#731#732#0" expanded="true" />
-                <element signature="e#831#832#0" expanded="true" />
-                <element signature="e#862#863#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/CalculoIRPF.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
-  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="FxmlFile" />
         <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/src/CalculoIRPF.java" />
-        <option value="$PROJECT_DIR$/src/DeclaracaoCompleta.java" />
-        <option value="$PROJECT_DIR$/src/Constantes.java" />
-        <option value="$PROJECT_DIR$/src/Contribuinte.java" />
-        <option value="$PROJECT_DIR$/src/DeclaracaoSimplificada.java" />
-        <option value="$PROJECT_DIR$/src/Apresentacao.java" />
-      </list>
-    </option>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="559" />
-    <option name="width" value="728" />
-    <option name="height" value="991" />
-  </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="IRPFmvc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="IRPFmvc" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="IRPFmvc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="IRPFmvc" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="PackagesPane" />
-    </panes>
-  </component>
+  <component name="ProjectId" id="1T15NqFMc3N04FMcYApMVhSe0Uw" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1572570849749" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/derby.jar!/" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -168,6 +86,26 @@
       </list>
     </option>
   </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="View.Main" />
+      <module name="IRPFmvc" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="View.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -185,110 +123,19 @@
   <component name="TimeTrackingManager">
     <option name="totallyTimeSpent" value="1891000" />
   </component>
-  <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
-    <layout>
-      <window_info id="Image Layers" order="0" />
-      <window_info id="Designer" order="1" />
-      <window_info id="UI Designer" order="2" />
-      <window_info id="Capture Tool" order="3" />
-      <window_info active="true" content_ui="combo" id="Project" order="4" sideWeight="0.49932706" visible="true" weight="0.25" />
-      <window_info id="Favorites" order="5" sideWeight="0.50067294" side_tool="true" visible="true" weight="0.25" />
-      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Maven" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-    </layout>
-  </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/CalculoIRPF.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Constantes.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Contribuinte.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-          <folding>
-            <element signature="e#280#281#0" expanded="true" />
-            <element signature="e#352#353#0" expanded="true" />
-            <element signature="e#408#409#0" expanded="true" />
-            <element signature="e#476#477#0" expanded="true" />
-            <element signature="e#533#534#0" expanded="true" />
-            <element signature="e#606#607#0" expanded="true" />
-            <element signature="e#688#689#0" expanded="true" />
-            <element signature="e#808#809#0" expanded="true" />
-            <element signature="e#910#911#0" expanded="true" />
-            <element signature="e#1151#1152#0" expanded="true" />
-            <element signature="e#1272#1273#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DeclaracaoCompleta.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="9" selection-end-column="5" />
-          <folding>
-            <element signature="e#247#248#0" expanded="true" />
-            <element signature="e#273#274#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DeclaracaoSimplificada.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-          <folding>
-            <element signature="e#250#251#0" expanded="true" />
-            <element signature="e#276#277#0" expanded="true" />
-            <element signature="e#704#705#0" expanded="true" />
-            <element signature="e#731#732#0" expanded="true" />
-            <element signature="e#831#832#0" expanded="true" />
-            <element signature="e#862#863#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Apresentacao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="799">
-          <caret line="62" column="29" lean-forward="true" selection-start-line="62" selection-start-column="29" selection-end-line="62" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="masterDetails">
     <states>

@@ -1,3 +1,5 @@
+package Model;
+
 public class Constantes {
 
         public static final String CONTRIBUINTE_COMPLETO  = "CONTRIBUINTE COMPLETO";

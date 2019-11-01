@@ -1,10 +1,24 @@
+package View;
+
+import Controller.DeclaracaoCompleta;
+import Controller.DeclaracaoSimplificada;
+import DAO.CadastroDAO;
+import DAO.CadastroDAOJavaDB;
+import Model.Constantes;
+import Model.Contribuinte;
+
 import javax.swing.*;
 
 public class Apresentacao {
+   static boolean flag = false;
+    static CadastroDAOJavaDB cDAO = new CadastroDAOJavaDB();
+
     public static void iniciarView(){
+
         Object[] categoria= {Constantes.CONTRIBUINTE_SIMPLIFICADO, Constantes.CONTRIBUINTE_COMPLETO};
         String selecionado = (String) JOptionPane.showInputDialog( null , null, Constantes.CATEGORIA,
                 JOptionPane.QUESTION_MESSAGE , null , categoria, Constantes.CONTRIBUINTE_SIMPLIFICADO );
+
 
         switch (selecionado){
             case Constantes.CONTRIBUINTE_SIMPLIFICADO:{
@@ -13,6 +27,7 @@ public class Apresentacao {
             }
             case Constantes.CONTRIBUINTE_COMPLETO:{
                 formularioCompleto();
+                flag = true;
             }
         }
     }
@@ -39,9 +54,11 @@ public class Apresentacao {
         dc.calcularDesconto();
         dc.calcularImposto();
 
-        String resultado = dc.toString();
+        cDAO.salvarContribuinte(c, dc.getDesconto(), dc.getImposto());
 
-        JOptionPane.showMessageDialog( null , resultado , Constantes.TITLE_INFO_CONTRIBUINTE, JOptionPane.INFORMATION_MESSAGE);
+       // String resultado = dc.toString();
+
+        ///JOptionPane.showMessageDialog( null , resultado , Constantes.TITLE_INFO_CONTRIBUINTE, JOptionPane.INFORMATION_MESSAGE);
     }
 
     public static void formularioSimplificado(){
@@ -65,5 +82,13 @@ public class Apresentacao {
         String resultado = ds.toString();
 
         JOptionPane.showMessageDialog( null , resultado , Constantes.TITLE_INFO_CONTRIBUINTE, JOptionPane.INFORMATION_MESSAGE);
+    }
+
+    public static boolean isFlag() {
+        return flag;
+    }
+
+    public static CadastroDAOJavaDB getcDAO() {
+        return cDAO;
     }
 }

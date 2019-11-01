@@ -1,4 +1,9 @@
-public class DeclaracaoSimplificada implements CalculoIRPF{
+package Controller;
+
+import Model.CalculoIRPF;
+import Model.Contribuinte;
+
+public class DeclaracaoSimplificada implements CalculoIRPF {
 
     private Contribuinte c;
     private double imposto;

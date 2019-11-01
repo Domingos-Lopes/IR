@@ -1,3 +1,5 @@
+package Model;
+
 public class Contribuinte {
     private String nome;
     private String cpf;
@@ -5,6 +7,10 @@ public class Contribuinte {
     private double totalRendimentos;
     private double contribuicaoPrevidenciaria;
     private int numeroDependentes;
+
+    public Contribuinte(){
+
+    }
 
 
     public String getNome() {
@@ -55,3 +61,4 @@ public class Contribuinte {
         this.numeroDependentes = numeroDependentes;
     }
 }
+

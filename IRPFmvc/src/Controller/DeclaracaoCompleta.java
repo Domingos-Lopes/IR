@@ -1,12 +1,19 @@
-public class DeclaracaoCompleta implements  CalculoIRPF {
+package Controller;
+
+import Model.CalculoIRPF;
+import Model.Contribuinte;
+
+public class DeclaracaoCompleta implements CalculoIRPF {
     private Contribuinte c;
     private double imposto;
     private double desconto;
     private double base;
     private double baseCalculo;
 
+
     public DeclaracaoCompleta(Contribuinte c) {
         this.c = c;
+
     }
 
     @Override
