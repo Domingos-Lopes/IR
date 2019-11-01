@@ -1,17 +1,24 @@
 package View;
 
+import DAO.CadastroDAO;
+import DAO.CadastroDAOJavaDB;
 import Model.Entities.ContribuinteCompleto;
 import Model.Entities.Pessoa;
 import Model.Util.Constantes;
 import Controller.ServiceCompleto;
 import Controller.ServiceSimplificado;
+import Model.Util.DBConnection;
 
 import javax.swing.*;
 
 public class App {
     public static void main (String[] args){
-
-        iniciarView();
+        DBConnection.getConnection();
+        CadastroDAOJavaDB cDAO = new CadastroDAOJavaDB();
+        cDAO.createDB();
+        cDAO.addPessoa(new Pessoa("Ruan", "1516544", 5000.00, 120.00));
+        cDAO.addPessoa(new ContribuinteCompleto("Carlos", "446544654", 22, 20000.00, 100.00, 2));
+        //iniciarView();
 
     }
 

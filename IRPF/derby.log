@@ -1,0 +1,10 @@
+----------------------------------------------------------------
+Thu Oct 31 21:03:49 BRT 2019:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.8.1.2 - (1095077): instance a816c00e-016e-2446-7be8-0000076b44b0 
+on database directory C:\Users\18111328\Desktop\domingos\IRPF\derbyDB  with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@77556fd 
+Loaded from file:/C:/Users/18111328/Desktop/domingos/IRPF/lib/derby.jar
+java.vendor=Oracle Corporation
+java.runtime.version=11.0.1+13
+user.dir=C:\Users\18111328\Desktop\domingos\IRPF
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
