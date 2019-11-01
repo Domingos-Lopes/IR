@@ -2,39 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9b9da18f-536f-420b-8786-574bbb361499" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/DAO/CadastroDAOJavaDB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Model/Util/DBConnection.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IRPF.iml" beforeDir="false" afterPath="$PROJECT_DIR$/IRPF.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/IRPF/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/IRPF/Application/App.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/IRPF/Controller/ServiceCompleto.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/IRPF/Controller/ServiceCompleto.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/IRPF/Controller/ServiceSimplificado.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/IRPF/Controller/ServiceSimplificado.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/IRPF/Entities/ContribuinteCompleto.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/IRPF/Entities/Pessoa.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/IRPF/Interfaces/DeclaracaoCompleta.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/IRPF/Interfaces/DeclaracaoSimplificada.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/IRPF/Model/Entities/ContribuinteCompleto.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/IRPF/Model/Entities/ContribuinteCompleto.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/IRPF/Model/Entities/Pessoa.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/IRPF/Model/Entities/Pessoa.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/IRPF/Model/Interfaces/DeclaracaoCompleta.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/IRPF/Model/Interfaces/DeclaracaoCompleta.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/IRPF/Model/Interfaces/DeclaracaoSimplificada.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/IRPF/Model/Interfaces/DeclaracaoSimplificada.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/IRPF/Model/Util/Constantes.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/IRPF/Model/Util/Constantes.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/IRPF/Test/PessoaTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/IRPF/Test/PessoaTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/IRPF/Utilidades/Constantes.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/IRPF/Utilidades/ServiceCompleto.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/IRPF/Utilidades/ServiceSimplificado.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/IRPF/View/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/IRPF/View/App.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Application/App.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Entities/ContribuinteCompleto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Entities/Pessoa.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Interfaces/DeclaracaoCompleta.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Interfaces/DeclaracaoSimplificada.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Test/CPtest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test/CPtest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Test/SimplesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test/SimplesTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Utilidades/Constantes.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Utilidades/ServiceCompleto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Utilidades/ServiceSimplificado.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/View/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/View/App.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -48,19 +16,7 @@
         <entry file="file://$PROJECT_DIR$/src/Model/Entities/ContribuinteCompleto.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="51">
-              <caret line="3" column="15" selection-start-line="3" selection-start-column="15" selection-end-line="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/DAO/CadastroDAOJavaDB.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="29" column="35" lean-forward="true" selection-start-line="29" selection-start-column="35" selection-end-line="29" selection-end-column="35" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+              <caret line="3" selection-start-line="3" selection-end-line="4" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -75,9 +31,54 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Controller/ServiceSimplificado.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="182">
+              <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="30" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Model/Util/Constantes.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Model/Interfaces/DeclaracaoSimplificada.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Model/Interfaces/DeclaracaoCompleta.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Controller/ServiceCompleto.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="505">
+              <caret line="62" column="31" lean-forward="true" selection-start-line="62" selection-start-column="31" selection-end-line="62" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/DAO/CadastroDAO.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
+            <state relative-caret-position="85">
               <caret line="6" selection-start-line="6" selection-end-line="6" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -86,11 +87,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/View/App.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" column="10" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
+            <state relative-caret-position="967">
+              <caret line="76" column="36" lean-forward="true" selection-start-line="76" selection-start-column="36" selection-end-line="76" selection-end-column="36" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Model/Util/DBConnection.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="510">
+              <caret line="32" selection-start-line="32" selection-end-line="32" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -129,7 +142,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="559" />
     <option name="width" value="728" />
     <option name="height" value="991" />
@@ -142,7 +155,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -159,6 +171,12 @@
               <item name="IRPF" type="b2602c69:ProjectViewProjectNode" />
               <item name="IRPF" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="IRPF" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IRPF" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Controller" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="IRPF" type="b2602c69:ProjectViewProjectNode" />
@@ -203,6 +221,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -286,17 +305,18 @@
       <workItem from="1572562594717" duration="34000" />
       <workItem from="1572562658400" duration="2713000" />
       <workItem from="1572565441323" duration="1177000" />
+      <workItem from="1572568292607" duration="2578000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17035000" />
+    <option name="totallyTimeSpent" value="19613000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26002866" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17621776" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -396,10 +416,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Model/Interfaces/DeclaracaoSimplificada.java">
+    <entry file="file://$PROJECT_DIR$/src/DAO/CadastroDAOJavaDB.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        <state relative-caret-position="374">
+          <caret line="29" column="35" selection-start-line="29" selection-start-column="35" selection-end-line="29" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DAO/CadastroDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Model/Entities/ContribuinteCompleto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" selection-start-line="3" selection-end-line="4" selection-end-column="22" />
         </state>
       </provider>
     </entry>
@@ -410,34 +450,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Model/Util/Constantes.java">
+    <entry file="file://$PROJECT_DIR$/src/Model/Interfaces/DeclaracaoSimplificada.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Controller/ServiceSimplificado.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Controller/ServiceCompleto.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="57" column="5" selection-start-line="57" selection-start-column="5" selection-end-line="64" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Model/Util/DBConnection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="32" selection-start-line="32" selection-end-line="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -448,37 +464,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Model/Entities/ContribuinteCompleto.java">
+    <entry file="file://$PROJECT_DIR$/src/Controller/ServiceCompleto.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="15" selection-start-line="3" selection-start-column="15" selection-end-line="5" />
+        <state relative-caret-position="505">
+          <caret line="62" column="31" lean-forward="true" selection-start-line="62" selection-start-column="31" selection-end-line="62" selection-end-column="31" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/DAO/CadastroDAOJavaDB.java">
+    <entry file="file://$PROJECT_DIR$/src/Controller/ServiceSimplificado.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="30" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Model/Util/Constantes.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
-          <caret line="29" column="35" lean-forward="true" selection-start-line="29" selection-start-column="35" selection-end-line="29" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DAO/CadastroDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/View/App.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="10" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
+        <state relative-caret-position="967">
+          <caret line="76" column="36" lean-forward="true" selection-start-line="76" selection-start-column="36" selection-end-line="76" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Model/Util/DBConnection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
