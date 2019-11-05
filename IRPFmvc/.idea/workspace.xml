@@ -2,14 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="529a6ee2-be46-40e2-8451-2a18bea8f101" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Controller/ConnectionDB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DAO/CadastroDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DAO/CadastroDAOJavaDB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Model/Contribuinte.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/View/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Apresentacao/Mainn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Negocio/CadastroFachada.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/derby.log" beforeDir="false" afterPath="$PROJECT_DIR$/derby.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/derbyDB/db.lck" beforeDir="false" afterPath="$PROJECT_DIR$/derbyDB/db.lck" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/derbyDB/log/log.ctrl" beforeDir="false" afterPath="$PROJECT_DIR$/derbyDB/log/log.ctrl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/derbyDB/log/log1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/derbyDB/log/log1.dat" afterDir="false" />
@@ -19,11 +15,17 @@
       <change beforePath="$PROJECT_DIR$/derbyDB/seg0/c121.dat" beforeDir="false" afterPath="$PROJECT_DIR$/derbyDB/seg0/c121.dat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/derbyDB/seg0/c130.dat" beforeDir="false" afterPath="$PROJECT_DIR$/derbyDB/seg0/c130.dat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/derbyDB/seg0/c141.dat" beforeDir="false" afterPath="$PROJECT_DIR$/derbyDB/seg0/c141.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/derbyDB/seg0/c150.dat" beforeDir="false" afterPath="$PROJECT_DIR$/derbyDB/seg0/c150.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/derbyDB/seg0/c161.dat" beforeDir="false" afterPath="$PROJECT_DIR$/derbyDB/seg0/c161.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/derbyDB/seg0/c171.dat" beforeDir="false" afterPath="$PROJECT_DIR$/derbyDB/seg0/c171.dat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/derbyDB/seg0/c20.dat" beforeDir="false" afterPath="$PROJECT_DIR$/derbyDB/seg0/c20.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/derbyDB/seg0/c200.dat" beforeDir="false" afterPath="$PROJECT_DIR$/derbyDB/seg0/c200.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/derbyDB/seg0/c211.dat" beforeDir="false" afterPath="$PROJECT_DIR$/derbyDB/seg0/c211.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/derbyDB/seg0/c221.dat" beforeDir="false" afterPath="$PROJECT_DIR$/derbyDB/seg0/c221.dat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/derbyDB/seg0/c31.dat" beforeDir="false" afterPath="$PROJECT_DIR$/derbyDB/seg0/c31.dat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/derbyDB/seg0/c41.dat" beforeDir="false" afterPath="$PROJECT_DIR$/derbyDB/seg0/c41.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/derbyDB/seg0/c470.dat" beforeDir="false" afterPath="$PROJECT_DIR$/derbyDB/seg0/c470.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/derbyDB/seg0/c481.dat" beforeDir="false" afterPath="$PROJECT_DIR$/derbyDB/seg0/c481.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/derbyDB/seg0/c4f0.dat" beforeDir="false" afterPath="$PROJECT_DIR$/derbyDB/seg0/c4f0.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/derbyDB/seg0/c501.dat" beforeDir="false" afterPath="$PROJECT_DIR$/derbyDB/seg0/c501.dat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/derbyDB/seg0/c51.dat" beforeDir="false" afterPath="$PROJECT_DIR$/derbyDB/seg0/c51.dat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/derbyDB/seg0/c60.dat" beforeDir="false" afterPath="$PROJECT_DIR$/derbyDB/seg0/c60.dat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/derbyDB/seg0/c71.dat" beforeDir="false" afterPath="$PROJECT_DIR$/derbyDB/seg0/c71.dat" afterDir="false" />
@@ -32,12 +34,26 @@
       <change beforePath="$PROJECT_DIR$/derbyDB/seg0/ca1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/derbyDB/seg0/ca1.dat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/derbyDB/seg0/cb1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/derbyDB/seg0/cb1.dat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/derbyDB/seg0/cf0.dat" beforeDir="false" afterPath="$PROJECT_DIR$/derbyDB/seg0/cf0.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Apresentacao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/View/Apresentacao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CalculoIRPF.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/CalculoIRPF.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Constantes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Constantes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Contribuinte.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DeclaracaoCompleta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/DeclaracaoCompleta.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DeclaracaoSimplificada.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/DeclaracaoSimplificada.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/IRPFmvc/Controller/ConnectionDB.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/IRPFmvc/Controller/DeclaracaoCompleta.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/IRPFmvc/Controller/DeclaracaoSimplificada.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/IRPFmvc/DAO/CadastroDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/IRPFmvc/DAO/CadastroDAOJavaDB.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/IRPFmvc/Model/CalculoIRPF.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/IRPFmvc/Model/Constantes.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/IRPFmvc/Model/Contribuinte.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/IRPFmvc/View/Apresentacao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/IRPFmvc/View/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/ConnectionDB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Negocio/ConnectionDB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/DeclaracaoCompleta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Negocio/DeclaracaoCompleta.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/DeclaracaoSimplificada.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Negocio/DeclaracaoSimplificada.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DAO/CadastroDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Persistencia/CadastroDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DAO/CadastroDAOJavaDB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Persistencia/CadastroDAOJavaDB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/CalculoIRPF.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Negocio/CalculoIRPF.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/Constantes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Negocio/Constantes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/Contribuinte.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Negocio/Contribuinte.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/View/Apresentacao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Apresentacao/Janelas.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/View/Main.java" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -47,6 +63,103 @@
   </component>
   <component name="FavoritesManager">
     <favorites_list name="IRPFmvc" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Apresentacao/Mainn.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Negocio/CalculoIRPF.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Persistencia/CadastroDAOJavaDB.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="69" selection-start-line="69" selection-end-line="69" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Negocio/DeclaracaoCompleta.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Apresentacao/Janelas.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="82" column="10" selection-start-line="82" selection-start-column="10" selection-end-line="82" selection-end-column="10" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Negocio/Constantes.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Negocio/DeclaracaoSimplificada.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Negocio/ConnectionDB.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Negocio/CadastroFachada.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Negocio/Contribuinte.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -60,13 +173,76 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/View/Main.java" />
+        <option value="$PROJECT_DIR$/src/DAO/CadastroDAOJavaDB.java" />
+        <option value="$PROJECT_DIR$/src/Persistencia/DAO/CadastroDAOJavaDB.java" />
+        <option value="$PROJECT_DIR$/src/Negocio/DeclaracaoSimplificada.java" />
+        <option value="$PROJECT_DIR$/src/Negocio/CadastroFachada.java" />
+        <option value="$PROJECT_DIR$/src/Apresentacao/Main.java" />
+        <option value="$PROJECT_DIR$/src/Apresentacao/Mainn.java" />
+        <option value="$PROJECT_DIR$/src/Apresentacao/Janelas.java" />
+        <option value="$PROJECT_DIR$/src/Persistencia/CadastroDAOJavaDB.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="559" />
+    <option name="width" value="728" />
+    <option name="height" value="991" />
+  </component>
   <component name="ProjectId" id="1T15NqFMc3N04FMcYApMVhSe0Uw" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="IRPFmvc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IRPFmvc" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="IRPFmvc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IRPFmvc" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="IRPFmvc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IRPFmvc" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Apresentacao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="IRPFmvc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IRPFmvc" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Negocio" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="IRPFmvc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IRPFmvc" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Persistencia" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1572570849749" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1572997629610" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -86,13 +262,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Mainn">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="View.Main" />
+      <option name="MAIN_CLASS_NAME" value="Apresentacao.Controller.View.Main" />
       <module name="IRPFmvc" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="View.*" />
+          <option name="PATTERN" value="Apresentacao.Controller.View.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Mainn" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Apresentacao.Mainn" />
+      <module name="IRPFmvc" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Apresentacao.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -102,6 +291,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Mainn" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -117,11 +307,46 @@
       <option name="presentableId" value="Default" />
       <updated>1572568972176</updated>
       <workItem from="1572568986256" duration="1891000" />
+      <workItem from="1572994310266" duration="3384000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1891000" />
+    <option name="totallyTimeSpent" value="5275000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
+    <layout>
+      <window_info id="Image Layers" />
+      <window_info id="Designer" />
+      <window_info id="UI Designer" />
+      <window_info id="Capture Tool" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Messages" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32974428" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -131,11 +356,114 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+            </State>
           </value>
         </entry>
       </map>
     </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/Persistencia/CadastroDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Negocio/DeclaracaoSimplificada.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Negocio/Contribuinte.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Negocio/Constantes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Negocio/ConnectionDB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Negocio/CadastroFachada.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Negocio/CalculoIRPF.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Apresentacao/Mainn.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Apresentacao/Janelas.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="82" column="10" selection-start-line="82" selection-start-column="10" selection-end-line="82" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Negocio/DeclaracaoCompleta.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Persistencia/CadastroDAOJavaDB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="69" selection-start-line="69" selection-end-line="69" />
+        </state>
+      </provider>
+    </entry>
   </component>
   <component name="masterDetails">
     <states>
